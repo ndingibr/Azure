@@ -1,0 +1,1 @@
+"use strict";app.factory("tokensManagerService",["$http","ngAuthSettings",function(e,t){var n=t.apiServiceBaseUri,r={},i=function(){return e.get(n+"api/refreshtokens").then(function(e){return e})},s=function(t){return e["delete"](n+"api/refreshtokens/?tokenid="+t).then(function(e){return e})};return r.deleteRefreshTokens=s,r.getRefreshTokens=i,r}]);

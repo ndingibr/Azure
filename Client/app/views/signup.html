@@ -1,0 +1,91 @@
+﻿
+
+<div class="container">
+    <form name="signup" class="form-horizontal" ng-submit="signUp()" novalidate>
+        <h2 class="form-login-heading">Sign up</h2>
+        <div class="form-group" ng-class="{ 'has-error' : signup.firstName.$invalid && !signup.firstName.$pristine }">
+            <label class="col-sm-3 control-label">First Name</label>
+            <div class="col-sm-3">
+                <input type="text" name="firstName" placeholder="Firstname" data-ng-model="registration.firstName" class="form-control" required>
+                <p ng-show="signup.firstName.$invalid && !signup.firstName.$pristine" class="help-block">Your First Name is required.</p>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : signup.lastName.$invalid && !signup.lastName.$pristine }">
+            <label class="col-sm-3 control-label">Last Name</label>
+            <div class="col-sm-3">
+                <input type="text" name="lastName" placeholder="Last Name" data-ng-model="registration.lastName" class="form-control" required>
+                <p ng-show="signup.lastName.$invalid && !signup.lastName.$pristine" class="help-block">Your Last Name is required.</p>
+            </div>
+        </div>
+        <div class="form-group" lastName ng-class="{ 'has-error' : signup.email.$invalid && !signup.email.$pristine }">
+            <label class="col-sm-3 control-label">Email</label>
+            <div class="col-sm-3">
+                <input type="email" name="email" placeholder="Email" data-ng-model="registration.email" class="form-control" required>
+                <p ng-show="signup.email.$invalid && !signup.email.$pristine" class="help-block">Your email is required.</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label" ng-class="{ 'has-error' : signup.password.$invalid && !signup.password.$pristine }">Password</label>
+            <div class="col-sm-3">
+                <input type="password" name="password" placeholder="Password" data-ng-model="registration.password" class="form-control" required>
+                <p ng-show="signup.password.$invalid && !signup.password.$pristine" class="help-block">Your Password is required.</p>
+
+            </div>
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : signup.confirmPassword.$invalid && !signup.confirmPassword.$pristine }">
+            <label class="col-sm-3 control-label">Confirm Password</label>
+            <div class="col-sm-3">
+                <input type="password" name="confirmPassword" placeholder="Password" data-ng-model="registration.confirmPassword" class="form-control" required
+                       compare-to="registration.user.password"/>
+                <p ng-show="signup.confirmpassword.$invalid && !signup.confirmPassword.$pristine" class="help-block">Your Confirm Password</p>
+                <div ng-show="form.confirm_password.$error.confirmPassword" class="help-block">Fields are not equal!
+                </div>
+                </div>
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : signup.dateOfBirth.$invalid && !signup.dateOfBirth.$pristine }">
+            <label for="dateOfBirth" class="col-sm-3 control-label">Date of Birth</label>
+            <div class="col-sm-3">
+                <input type="date" id="dateOfBirth" class="form-control" data-ng-model="registration.dateOfBirth" required>
+                <p ng-show="signup.dateOfBirth.$invalid && !signup.dateOfBirth.$pristine" class="help-block">Your Date of Birth is required.</p>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : signup.company.$invalid && !signup.company.$pristine }">
+            <label class="col-sm-3 control-label">Company</label>
+            <div class="col-sm-3">
+                <input type="text" name="company" placeholder="company" data-ng-model="registration.company" class="form-control" required>
+                <p ng-show="signup.company.$invalid && !signup.company.$pristine" class="help-block">Your First Company is required.</p>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : signup.gender.$invalid && !signup.gender.$pristine }">
+            <label class="control-label col-sm-3">Gender</label>
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label class="radio-inline">
+                            <input type="radio" name="femaleRadio" data-ng-model="registration.gender" value="F">Female
+                           
+                        </label>
+                    </div>
+                    <div class="col-sm-4">
+                        <label class="radio-inline">
+                            <input type="radio" name="maleRadio" data-ng-model="registration.gender" value="M">Male
+                            </label>
+                    </div>
+
+                </div>
+            </div>
+        </div> <!-- /.form-group -->
+
+        <div class="form-group">
+            <div class="col-sm-3 col-sm-offset-3">
+                <button type="submit" class="btn btn-primary" ng-disabled="signup.$invalid">Submit</button>
+            </div>
+        </div>
+        <div data-ng-hide="message == ''" data-ng-class="(savedSuccessfully) ? 'alert alert-success' : 'alert alert-danger'">
+            {{message}}
+        </div>
+    </form>
+    <!-- /form -->
+
+</div>
+

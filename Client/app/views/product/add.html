@@ -1,0 +1,70 @@
+﻿<div class="container">
+    <form name="add" class="form-horizontal" ng-submit="add()" novalidate>
+        <h2 class="form-login-heading">Create Product</h2>
+        <div class="form-group" ng-class="{ 'has-error' : add.name.$invalid && !product.add.$pristine }">
+            <label class="col-sm-3 control-label">Name</label>
+            <div class="col-sm-3">
+                <input type="text" name="name" placeholder="name" data-ng-model="product.name" class="form-control" required>
+                <p ng-show="add.name.$invalid && !add.name.$pristine" class="help-block">The name is required</p>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : add.description.$invalid && !add.description.$pristine }">
+            <label class="col-sm-3 control-label">Description</label>
+            <div class="col-sm-3">
+                <input type="text" name="description" placeholder="description" data-ng-model="product.description" class="form-control" required>
+                <p ng-show="add.description.$invalid && !add.description.$pristine" class="help-block">The description is required</p>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : add.stockQuantity.$invalid && !add.stockQuantity.$pristine }">
+            <label class="col-sm-3 control-label">Stock Quantity</label>
+            <div class="col-sm-3">
+                <input type="text" name="stockQuantity" placeholder="stockQuantity" data-ng-model="product.stockQuantity" class="form-control" required>
+                <p ng-show="add.stockQuantity.$invalid && !add.stockQuantity.$pristine" class="help-block">The Stock Quantity is required</p>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : add.Price.$invalid && !add.price.$pristine }">
+            <label class="col-sm-3 control-label">Price</label>
+            <div class="col-sm-3">
+                <input type="text" name="price" placeholder="Price" data-ng-model="product.price" class="form-control" required>
+                <p ng-show="add.price.$invalid && !add.price.$pristine" class="help-block">The price is required</p>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : add.productCost.$invalid && !add.productCost.$pristine }">
+            <label class="col-sm-3 control-label">Cost</label>
+            <div class="col-sm-3">
+                <input type="text" name="productCost" placeholder="ProductCost" data-ng-model="product.productCost" class="form-control" required>
+                <p ng-show="add.productCost.$invalid && !add.productCost.$pristine" class="help-block">The product cost is required</p>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{ 'has-error' : add.category.$invalid && !add.category.$pristine }">
+            <label class="col-sm-3 control-label">Category</label>
+            <div class="col-sm-3">
+
+
+                <select ng-model="categories"
+                        ng-options="opt as opt.label for opt in options"></select>
+
+                The value selected is {{ categories.value }}.
+            </div>
+
+
+
+
+
+
+                <input type="" name="category" placeholder="category" data-ng-model="product.category" class="form-control" required>
+                <p ng-show="add.category.$invalid && !add.category.$pristine" class="help-block">The category is required</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+        <div class="col-sm-3 col-sm-offset-3">
+                <button type="submit" class="btn btn-primary" ng-disabled="add.$invalid">Submit</button>
+            </div>
+        </div>
+        <div data-ng-hide="message == ''" data-ng-class="(savedSuccessfully) ? 'alert alert-success' : 'alert alert-danger'">
+            {{message}}
+        </div>
+      </form>
+    <!-- /form -->
+</div>

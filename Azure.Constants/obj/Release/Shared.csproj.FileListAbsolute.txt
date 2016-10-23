@@ -1,0 +1,10 @@
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Release\Shared.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Release\Shared.pdb
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Release\Configuration.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Release\Newtonsoft.Json.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Release\Configuration.pdb
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Release\Configuration.xml
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Release\Newtonsoft.Json.xml
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\obj\Release\Shared.csprojResolveAssemblyReference.cache
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\obj\Release\Shared.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\obj\Release\Shared.pdb

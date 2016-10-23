@@ -1,0 +1,1 @@
+"use strict";app.controller("indexController",["$scope","$location","authService",function(t,o,n){t.logOut=function(){n.logOut(),o.path("/home")},t.authentication=n.authentication}]);

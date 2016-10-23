@@ -1,0 +1,1 @@
+"use strict";app.controller("viewquestionController",["$scope","questionsService","$routeParams",function(e,t,n){e.question=[],t.getQuestion(n.id).then(function(t){e.question=t.data},function(e){alert(e.data.message)})}]);

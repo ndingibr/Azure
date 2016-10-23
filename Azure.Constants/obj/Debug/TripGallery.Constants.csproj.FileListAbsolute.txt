@@ -1,0 +1,10 @@
+C:\Users\briann\Downloads\oauth2-openid-connect-angular-aspdotnet (1)\8-oauth2-openid-exercise-files\end\TripGallery\TripGallery.Constants\bin\Debug\TripGallery.Constants.dll
+C:\Users\briann\Downloads\oauth2-openid-connect-angular-aspdotnet (1)\8-oauth2-openid-exercise-files\end\TripGallery\TripGallery.Constants\bin\Debug\TripGallery.Constants.pdb
+C:\Users\briann\Downloads\oauth2-openid-connect-angular-aspdotnet (1)\8-oauth2-openid-exercise-files\end\TripGallery\TripGallery.Constants\obj\Debug\TripGallery.Constants.csprojResolveAssemblyReference.cache
+C:\Users\briann\Downloads\oauth2-openid-connect-angular-aspdotnet (1)\8-oauth2-openid-exercise-files\end\TripGallery\TripGallery.Constants\obj\Debug\TripGallery.Constants.dll
+C:\Users\briann\Downloads\oauth2-openid-connect-angular-aspdotnet (1)\8-oauth2-openid-exercise-files\end\TripGallery\TripGallery.Constants\obj\Debug\TripGallery.Constants.pdb
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Debug\TripGallery.Constants.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Debug\TripGallery.Constants.pdb
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\obj\Debug\TripGallery.Constants.csprojResolveAssemblyReference.cache
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\obj\Debug\TripGallery.Constants.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\obj\Debug\TripGallery.Constants.pdb

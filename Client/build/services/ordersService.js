@@ -1,0 +1,1 @@
+"use strict";app.factory("ordersService",["$http","ngAuthSettings",function(r,t){var e=t.apiServiceBaseUri,n={},i=function(){return r.get(e+"api/orders").then(function(r){return r})};return n.getOrders=i,n}]);

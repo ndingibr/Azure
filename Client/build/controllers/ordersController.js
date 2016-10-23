@@ -1,0 +1,1 @@
+"use strict";app.controller("ordersController",["$scope","ordersService",function(r,e){r.orders=[],e.getOrders().then(function(e){r.orders=e.data},function(r){})}]);

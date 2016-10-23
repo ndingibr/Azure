@@ -1,0 +1,1 @@
+"use strict";app.controller("productsController",["$scope","productsService",function(t,o){t.products=[],o.getProducts().then(function(o){t.products=o.data},function(t){alert(t.data.message)})}]);

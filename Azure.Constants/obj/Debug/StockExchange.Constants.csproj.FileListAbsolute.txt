@@ -1,0 +1,7 @@
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Debug\TripGallery.Constants.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Debug\TripGallery.Constants.pdb
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\obj\Debug\StockExchange.Constants.csprojResolveAssemblyReference.cache
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\obj\Debug\TripGallery.Constants.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\obj\Debug\TripGallery.Constants.pdb
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Debug\Newtonsoft.Json.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Debug\Newtonsoft.Json.xml

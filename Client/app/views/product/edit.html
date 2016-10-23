@@ -1,0 +1,65 @@
+﻿
+
+<form class="form-horizontal" role="form" ng-submit="submit()">
+
+    <div class="form-group row">
+        <label for="userId" class="col-sm-2 form-control-label">User ID</label>
+        <div class="col-sm-4">
+            <select ng-model="selectedUser" ng-options="opt.id as opt.email for opt in users" required></select>
+        </div>
+
+        <br><br>
+
+        Selected ID:  {{selectedUser}}
+
+    </div>
+
+    </div>
+    <div class="form-group row">
+        <label for="FullName" class="col-sm-2 form-control-label">Name</label>
+        <div class="col-sm-4">
+            <input type="text" ng-model="selectedUser.fullName" class="form-control" id="FullName" placeholder="FullName">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-2">IsTaxExempt</label>
+        <div class="col-sm-4">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" ng-model="customer.isTaxExempt"> IsTaxExempt
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="AffiliateId" class="col-sm-2 form-control-label">AffiliateId</label>
+        <div class="col-sm-4">
+            <input type="text" ng-model="customer.affiliateId" class="form-control" id="AffiliateId" placeholder="AffiliateId">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="VendorId" class="col-sm-2 form-control-label">VendorId</label>
+        <div class="col-sm-4">
+            <input type="text" ng-model="customer.vendorId" class="form-control" id="VendorId" placeholder="VendorId">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-2">Has Shopping Cart Items</label>
+        <div class="col-sm-4">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" ng-model="customer.hasShoppingCartItems">
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-secondary">Save</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+

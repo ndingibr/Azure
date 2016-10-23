@@ -1,0 +1,100 @@
+﻿<form class="form-horizontal" role="form" ng-submit="submit()">
+    <div class="form-group row">
+        <label for="inputEmail" class="col-sm-2 form-control-label">Email</label>
+        <div class="col-sm-4">
+            <input type="email" ng-model="customer.email" class="form-control" id="inputEmail">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="inputUsername" class="col-sm-2 form-control-label">Username</label>
+        <div class="col-sm-4">
+            <input type="text" ng-model="customer.username" class="form-control" id="inputUsername">
+        </div>
+
+    </div>
+    <div class="form-group row">
+        <label for="inputPassword" class="col-sm-2 form-control-label">Password</label>
+        <div class="col-sm-4">
+            <input type="text" ng-model="customer.password" class="form-control" id="inputPassword">
+        </div>
+
+    </div>
+    <div class="form-group row">
+        <label for="inputPassword" class="col-sm-2 form-control-label">Password</label>
+        <div class="col-sm-4">
+            <input type="text" ng-model="customer.confirmpassword" class="form-control" id="confirmpassword">
+        </div>
+
+    </div>
+    <div class="form-group row">
+        <label for="inputVendor" class="col-sm-2 form-control-label">Vendor</label>
+        <div class="col-sm-4">
+            <input type="text" ng-model="customer.vendor" class="form-control" id="inputVendor">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Text1" class="col-sm-2 form-control-label">Gender</label>
+        <div class="col-sm-4">
+            <input type="text" ng-model="customer.password" class="form-control" id="Text1">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="firstName" class="col-sm-2 form-control-label">First Name</label>
+        <div class="col-sm-4">
+            <input type="text" ng-model="customer.firstname" class="form-control" id="firstName">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="lastName" class="col-sm-2 form-control-label">Last Name</label>
+        <div class="col-sm-4">
+            <input type="text" ng-model="customer.lastName" class="form-control" id="lastName">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="dateofbirth" class="col-sm-2 form-control-label">Date of Birth </label>
+        <div class="col-sm-4">
+            <input type="text" ng-model="customer.dateofbirth" class="form-control" id="dateofbirth">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="company" class="col-sm-2 form-control-label">Company </label>
+        <div class="col-sm-4">
+            <input type="text" ng-model="customer.dateofbirth" class="form-control" id="company">
+        </div>
+    </div>
+
+
+    <div class="form-group row">
+        <label for="AdminComment" class="col-sm-2 form-control-label">AdminComment</label>
+        <div class="col-sm-4">
+            <input type="text" ng-model="customer.admincomment" class="form-control" id="AdminComment" placeholder="AdminComment">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2">IsTaxExempt</label>
+        <div class="col-sm-4">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" ng-model="customer.istaxexempt">
+                    IsTaxExempt
+                </label>
+            </div>
+        </div>
+    </div>
+    <label class="col-sm-2">Active?</label>
+    <div class="col-sm-4">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" ng-model="customer.active">
+                Active?
+            </label>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-secondary">Save</button>
+        </div>
+    </div>
+
+</form>

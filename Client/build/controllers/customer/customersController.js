@@ -1,0 +1,1 @@
+"use strict";app.controller("customersController",["$scope","customersService",function(t,e){t.customers=[],e.getCustomers().then(function(e){t.customers=e.data},function(t){alert(t.data.message)})}]);

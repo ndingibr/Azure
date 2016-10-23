@@ -1,0 +1,1 @@
+"use strict";app.controller("questionsController",["$scope","questionsService",function(t,n){t.questions=[],n.getQuestions().then(function(n){t.questions=n.data},function(t){})}]);

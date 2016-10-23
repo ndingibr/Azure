@@ -1,0 +1,1 @@
+"use strict";app.controller("refreshController",["$scope","$location","authService",function(e,n,o){e.authentication=o.authentication,e.tokenRefreshed=!1,e.tokenResponse=null,e.refreshToken=function(){o.refreshToken().then(function(n){e.tokenRefreshed=!0,e.tokenResponse=n},function(e){n.path("/login")})}}]);

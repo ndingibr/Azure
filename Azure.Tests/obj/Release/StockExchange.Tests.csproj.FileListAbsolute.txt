@@ -1,0 +1,16 @@
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\bin\Release\StockExchange.Tests.dll.config
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\bin\Release\StockExchange.Tests.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\bin\Release\StockExchange.Tests.pdb
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\bin\Release\Common.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\bin\Release\Newtonsoft.Json.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\bin\Release\SendGridMail.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\bin\Release\SendGrid.SmtpApi.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\bin\Release\Common.pdb
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\bin\Release\Newtonsoft.Json.xml
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\obj\Release\StockExchange.Tests.csprojResolveAssemblyReference.cache
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\obj\Release\StockExchange.Tests.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\StockExchange.Tests\obj\Release\StockExchange.Tests.pdb

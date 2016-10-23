@@ -1,0 +1,6 @@
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Release\TripGallery.Constants.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Release\TripGallery.Constants.pdb
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Release\Newtonsoft.Json.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\bin\Release\Newtonsoft.Json.xml
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\obj\Release\TripGallery.Constants.dll
+C:\Users\briann\Documents\Visual Studio 2012\Projects\source\TripGallery.Constants\obj\Release\TripGallery.Constants.pdb
